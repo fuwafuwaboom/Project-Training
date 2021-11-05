@@ -17,7 +17,7 @@ void menu()
 
 void game()
 {
-	srand((unsigned int)time(NULL));
+	srand((unsigned int)time(NULL));//利用系统时间钟生成随机数
 	int a = rand();
 	int b = a % 100 + 1;
 	int guess = 0;
